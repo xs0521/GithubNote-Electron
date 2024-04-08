@@ -1,5 +1,6 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+import 'tailwindcss/tailwind.css';
+
 import TodoList from '../todo/TodoList';
 
 export default function App() {
